@@ -1,22 +1,18 @@
 ---
-title : "Session Management"
+title : "Quản lý tài nguyên trên AWS thông qua tag với EventBridge"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# Làm việc với Amazon System Manager - Session Manager
+## Tổng quan
 
-### Tổng quan
+Workshop tập trung vào việc sử dụng AWS EventBridge và Lambda nhằm tự động hóa quy trình quản lý tài nguyên dựa trên tag. Thông qua cơ chế kích hoạt sự kiện định kỳ, EventBridge quét các tài nguyên, phát hiện và cảnh báo nếu thiếu các tag bắt buộc. Tag là một cặp key-value giúp nhóm và phân loại tài nguyên trên AWS theo nhiều trường hợp khác nhau (môi trường, dự án, mục đích sử dụng...)
 
- Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.
+## Nội dung
 
-![ConnectPrivate](/images/arc-log.png) 
-
-### Nội dung
-
- 1. [Giới thiệu](1-introduce/)
- 2. [Các bước chuẩn bị](2-Prerequiste/)
- 3. [Tạo kết nối đến máy chủ EC2](3-Accessibilitytoinstance/)
- 4. [Quản lý session logs](4-s3log/)
- 5. [Port Forwarding](5-Portfwd/)
- 6. [Dọn dẹp tài nguyên](6-cleanup/)
+1. [Giới thiệu](1-Introduce/)
+2. [Tạo SNS topic](2-SNS/)
+3. [Tạo Lambda function](3-lambda/)
+4. [Tạo EventBridge envent](4-cloudwatch/)
+5. [Kiểm tra kết quả](5-test/)
+6. [Dọn dẹp tài nguyên](6-clean/)

@@ -10,7 +10,7 @@ home = [ "HTML", "RSS", "JSON"]
   themeVariant = "workshop"
   # Git hub repo link
   editURL = ""
-  description = ""  
+  description = ""
   author = "holehuy.it@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
@@ -19,6 +19,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
+title = "SAM CI/CD"
 weight = 1
 languageName = "English"
 
@@ -29,6 +30,7 @@ url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
 
 [Languages.vi]
+title = "SAM CI/CD"
 weight = 2
 languageName = "Tiếng Việt"
 

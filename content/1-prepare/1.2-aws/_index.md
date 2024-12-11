@@ -1,5 +1,5 @@
 ---
-title : "Install CLI
+title : "Install CLI"
 date :  "`r Sys.Date()`" 
 weight : 2 
 chapter : false
